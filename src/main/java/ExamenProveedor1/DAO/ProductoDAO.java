@@ -40,7 +40,10 @@ public Producto buscar(int codigo,int cantidad) {
 
 }
 
-
+/**
+ * metodo para actualizar el stock
+ * @param pro
+ */
 public void update (Producto pro) {
 	em.merge(pro);
 }
